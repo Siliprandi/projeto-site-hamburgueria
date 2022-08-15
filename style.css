@@ -1,0 +1,210 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Fredoka+One&family=Montserrat:wght@100&family=Yanone+Kaffeesatz&display=swap');
+
+*{  
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background:#8f2e2f;
+    font-family:fredoka, sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 0;
+    background: #6c2121;
+
+}
+
+.cabecalho-menu-item{
+
+    margin: 0 15px;
+    color: #fff;
+  
+
+}
+
+.cabecalho-menu-item:hover{
+    color: #f2ce20;
+}
+
+.cabecalho-img{
+    width: 140px;
+    
+}
+
+
+.conteudo-principal{
+
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+   
+}
+
+.conteudo-principal-escrito{
+
+    margin-left: 50px;
+    
+
+   
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #f2ce20;
+    text-transform: uppercase;
+}
+
+.conteudo-principal-escrito-titulo{
+
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height:65px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    
+}
+
+span{
+    color: #f2ce20;
+}
+
+
+.conteudo-principal-escrito-paragrafo{
+
+    margin-bottom: 10px;
+ 
+}
+
+.conteudo-principal-botao{
+    margin-top: 15px;
+    width: 150px;
+    height: 55px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family:fredoka, sans-serif;
+    border: none;
+    border-radius: 15px;
+    background: #f2ce20;
+    
+}
+
+
+.conteudo-principal-botao-link{
+    color: #8f2e2f;
+}
+
+
+.conteudo-principal-botao:hover{
+    
+    background: #ffd500;
+    transform: scale(1.1);
+    transition: all 0.5s;
+    box-shadow: -10px 8px 5px #6c2121;
+}
+
+.conteudo-principal-imagem{
+    margin-top: 40px;
+    transition: right 2s;  
+    width: 720px;
+   
+   
+   
+}
+
+.conteudo-principal-imagem:hover{
+    position:relative;
+    animation: foodtruck 1.5s;
+ 
+ }
+ 
+
+@keyframes foodtruck{
+
+    from{
+            right: 5px ;
+    }
+
+    to {
+        right:15px;
+    }
+}
+
+.conteudo-secundario{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    top:150px;
+    margin: 0 100px;
+    border-radius: 50px 50px 50px 50px;
+    background: #6c2121;
+    height:300px;
+    
+    
+    
+}
+
+.conteudo-secundario-imagem{
+    height: 430px;
+}
+
+.conteudo-secundario-imagem:hover{
+    transform: scale(1.1);
+    transform: scaleX(3deg);
+    transition: 0.2s;
+}
+
+
+.conteudo-secundario-titulo{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.conteudo-secundario-paragrafo{
+    color: #fff;
+    margin: 10px 0;
+}
+
+
+
+.conteudo-secundario-botao{
+    margin: 20px 10px;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    background: #f2ce20;
+
+}
+
+
+i{
+    margin: 0 5px;
+   
+}
+
+.conteudo-secundario-botao:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+  
+}
+
