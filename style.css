@@ -15,17 +15,21 @@ body{
 
 .cabecalho{
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    padding: 40px 0;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
     background: #6c2121;
+
+}
+
+#btn-mobile{
+    display: none;
 
 }
 
 .cabecalho-menu-item{
 
-    margin: 0 15px;
+    margin: 0 1.5rem;
     color: #fff;
   
 
@@ -36,7 +40,7 @@ body{
 }
 
 .cabecalho-img{
-    width: 140px;
+    width: 8.75rem;
     
 }
 
@@ -45,7 +49,6 @@ body{
 
    
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-around;
     color: #fff;
@@ -54,22 +57,22 @@ body{
 
 .conteudo-principal-escrito{
 
-    margin-left: 50px;
+    margin-left: 3.125em;
     
 
    
 }
 
 .conteudo-principal-escrito-subtitulo{
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 2.0rem;
+    margin-bottom: 1.0rem;
     color: #f2ce20;
     text-transform: uppercase;
 }
 
 .conteudo-principal-escrito-titulo{
 
-    font-size: 60px;
+    font-size: 3.75rem;
     text-transform: uppercase;
     line-height:65px;
     letter-spacing: 5px;
@@ -84,14 +87,14 @@ span{
 
 .conteudo-principal-escrito-paragrafo{
 
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
  
 }
 
 .conteudo-principal-botao{
     margin-top: 15px;
-    width: 150px;
-    height: 55px;
+    width: 9.375em;
+    height: 3.438em;
     text-transform: uppercase;
     font-weight: bold;
     font-family:fredoka, sans-serif;
@@ -118,9 +121,8 @@ span{
 .conteudo-principal-imagem{
     margin-top: 40px;
     transition: right 2s;  
-    width: 720px;
-   
-   
+    width: 45em;
+    
    
 }
 
@@ -130,6 +132,7 @@ span{
  
  }
  
+/* animação do foodtruck primeira seção*/
 
 @keyframes foodtruck{
 
@@ -142,6 +145,9 @@ span{
     }
 }
 
+
+/* segunda seção*/
+
 .conteudo-secundario{
     display: flex;
     position: relative;
@@ -150,28 +156,27 @@ span{
     justify-content:space-evenly;
     top:150px;
     margin: 0 100px;
-    border-radius: 50px 50px 50px 50px;
+    border-radius: 50px;
     background: #6c2121;
-    height:300px;
+    height:18.75em;
     
     
     
 }
 
 .conteudo-secundario-imagem{
-    height: 430px;
+    height: 26.875em;
 }
 
 .conteudo-secundario-imagem:hover{
     transform: scale(1.1);
-    transform: scaleX(3deg);
     transition: 0.2s;
 }
 
 
 .conteudo-secundario-titulo{
     color: #fff;
-    font-size: 40px;
+    font-size: 2.5em;
     font-weight: bold;
     text-transform: uppercase;
     
@@ -207,4 +212,7 @@ i{
     transition: 0.2s;
   
 }
+
+
+
 
